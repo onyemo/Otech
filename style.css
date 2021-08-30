@@ -1,0 +1,73 @@
+.logo{
+    padding-left: 100px;
+    float: left;
+}
+.Nav{
+    display: inline;
+}
+
+.Nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .Nav ul li {
+    float: right;
+  }
+  
+  .Nav ul li a {
+    display: block;
+    color: chocolate;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #fff (white) on hover */
+  .Nav ul li a:hover {
+    background-color: white;
+  }
+
+  .Nav ul li a.active {
+    background-color: #fff;
+  }
+
+  .illustration{
+     display: inline;
+  }
+  .content{
+      float: left;
+      padding-left: 100px;
+      padding-top: 180px;
+      font-size: 1.5em;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: #333;
+            
+  }
+  
+  .image{
+      float: left;
+      padding-left: 200px;
+      padding-top: 100px;
+      
+  }
+  .button1{
+    float: left;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1em;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: chocolate;
+      }
+    .btn-wrapper{
+     padding-top: 30px;
+        display: flex;
+        justify-content: left;
+    }
